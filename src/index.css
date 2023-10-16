@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap');
 
 * {
   margin: 0;
@@ -18,7 +18,7 @@
 
 body {
   margin: 0;
-  font-family: "Open Sans";
+  font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -41,6 +41,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  padding: 5px;
 
   background-color: var(--clr-bunker);
 }
@@ -58,13 +59,14 @@ nav {
 
 .nav__brand h1 {
   color: var(--clr-white);
-  font-family: "Lalezar";
-  font-size: 2.5em;
+  font-family: "Montserrat";
+  font-size: 1.5em;
 }
 
 .nav__links {
   background-color: var(--clr-ebony-clay);
   grid-column: 1 / span 3;
+  margin-top: 8px;
 
   padding: 10px;
 
@@ -109,8 +111,8 @@ nav {
   border: none;
   border-radius: 4px;
 
-  font-family: "Lalezar";
-  font-size: 1.25em;
+  font-family: "Montserrat";
+  font-size: 1.00em;
   font-weight: 600;
 
   cursor: pointer;
@@ -181,7 +183,7 @@ nav {
 }
 
 .card__info h4 {
-  font-family: "Open Sans";
+  font-family: "Montserrat";
   font-size: 1.25em;
   font-weight: 400;
 }
@@ -192,7 +194,7 @@ nav {
 }
 
 .card__info p {
-  font-family: "Open Sans";
+  font-family: "Montserrat";
   font-size: 0.95em;
   font-weight: 600;
   margin-top: 5px;
@@ -200,7 +202,11 @@ nav {
 
 /* ------------------------------------------------------ */
 /* -- PRODUCT -- */
-
+.logo {
+  width: 68px;
+  height: 58px;
+  margin: 10px auto;
+};
 .product {
   width: 100vw;
   height: 100vh;
@@ -298,7 +304,7 @@ nav {
   border: none;
   border-radius: 24px;
 
-  font-family: "Open Sans";
+  font-family: "Montserrat";
   font-size: 0.95em;
   font-weight: 600;
 
